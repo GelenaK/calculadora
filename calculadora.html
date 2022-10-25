@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/funcion.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <table>
+      <tr><td>Valor1:</td><td><input type="number" id="valor1"></td> </tr>   
+      <tr><td>Valor2:</td><td><input type="number" id="valor2"></td> </tr>
+      <tr><td>Valor3:</td><td><input type="number" id="valor3"></td> </tr>
+      
+      <tr>
+         <td>
+             <select id="ope">
+                <option value="1">Suma</option>
+                <option value="2">Resta</option>
+                <option value="3">Multiplicación</option>
+                <option value="4">División</option>
+             </select>
+         </td>
+
+
+         <td>
+            <input type="button" value="calcular" onclick="calcular();">
+         </td>
+
+      </tr>
+
+    </table>
+</body>
+</html>
